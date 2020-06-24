@@ -1,6 +1,5 @@
 package bn256
 
-
 func lineFunctionAdd_SaveMem(r, p *twistPoint, q *curvePoint, r2 *gfP2, a, b, c *gfP2, rOut *twistPoint) {
 
 	a.SetZero()
@@ -240,7 +239,7 @@ func miller(q *twistPoint, p *curvePoint) *gfP12 {
 	a := &gfP2{}
 	b := &gfP2{}
 	c := &gfP2{}
-	newR  := &twistPoint{}
+	newR := &twistPoint{}
 
 	for i := len(sixuPlus2NAF) - 1; i > 0; i-- {
 		//a, b, c, newR := lineFunctionDouble(r, bAffine)

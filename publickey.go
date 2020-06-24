@@ -3,7 +3,7 @@ package bls
 import (
 	"math/big"
 
-	"github.com/SickleZhang/bls/bn256"
+	"github.com/intfoundation/bls/bn256"
 )
 
 type PublicKey struct {

@@ -3,7 +3,7 @@ package bls
 import (
 	"bytes"
 
-	"github.com/SickleZhang/bls/bn256"
+	"github.com/intfoundation/bls/bn256"
 )
 
 func Sign(msg []byte, pvtk *PrivateKey) *Signature {
